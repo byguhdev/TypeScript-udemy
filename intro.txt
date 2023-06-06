@@ -1,0 +1,5 @@
+O que é?
+
+TypeScript é um superset para JavaScript, com tipagem estática, novos recursos e que compila para JavaScript puro.
+
+* TypeScript compila para JavaScript puro
