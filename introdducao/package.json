@@ -1,0 +1,8 @@
+{
+  "name": "TypeScript-udemy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/byguhdev/TypeScript-udemy.git",
+  "author": "Gustavo Henrique",
+  "license": "MIT"
+}
