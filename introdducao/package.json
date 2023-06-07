@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/byguhdev/TypeScript-udemy.git",
   "author": "Gustavo Henrique",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
