@@ -1,12 +1,15 @@
 module.exports = {
-  env:{
+  env: {
     browser: true,
-    es6: true,
+    browser: true,
     node: true,
   },
-  extends: ["plugin:@typescript-eslint/recommended"],
+  extends: [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+  ],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "prettier"],
   settings: {
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"],
