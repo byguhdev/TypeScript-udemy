@@ -1,14 +1,11 @@
-import func from './func';
+class MeuHello {
+  getHello() {
+    return 'Hello World TypeScript';
+  }
+}
 
-console.log('Hello World in TypeScript');
-console.log(2 + 2 * 100);
-
-const nome = 'F';
-console.log(nome);
-
-console.log(func(20, 30));
-console.log(func(10, 30));
-console.log(func(5, 30));
-console.log(func(0, 30));
-console.log(func(200, 30));
-console.log(func(20, 30));
+const instancia = new MeuHello();
+const data = new Date();
+console.log(
+  `Bem vindo ao modulo de TypeScript esse é o meu: '${instancia.getHello()}' no dia '${data.getDate()}'`,
+); // Bem vindo ao modulo de TypeScript esse é o meu: 'Hello World TypeScript' no dia '6'
