@@ -15,5 +15,4 @@ const Store = (nome: string, email:string, status=false): boolean =>
     return status;
 }
 
-
 Store("Burguer T","burgeurt@gmail.com");
